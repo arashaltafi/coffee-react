@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en" translate="no" dir="rtl">
+
+<head>
+  <meta name="darkreader-lock" />
+  <meta charset="UTF-8" />
+  <meta name="author" content="arashaltafi" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0,  viewport-fit=cover, user-scalable=no" />
+
+  <link rel="icon" href="public/assets/favicon.png" />
+  <meta name="theme-color" content="#000000" />
+  <link rel="apple-touch-icon" href="public/assets/icons/icon-192x192.png" />
+  <link rel="apple-touch-icon" sizes="48x48" href="public/assets/icons/icon-48x48.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="public/assets/icons/icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="128x128" href="public/assets/icons/icon-128x128.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="public/assets/icons/icon-144x144.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="public/assets/icons/icon-152x152.png" />
+  <link rel="apple-touch-icon" sizes="192x192" href="public/assets/icons/icon-192x192.png" />
+  <link rel="apple-touch-icon" sizes="384x384" href="public/assets/icons/icon-384x384.png" />
+  <link rel="apple-touch-icon" sizes="512x512" href="public/assets/icons/icon-512x512.png" />
+
+  <meta name="apple-mobile-web-app-title" content="Coffee Shop" />
+  <link rel="apple-touch-startup-image" href="public/assets/favicon.png">
+
+  <!-- display portrait -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="mobile-web-app-capable" content="yes" />
+
+  <meta name="HandheldFriendly" content="true" />
+  <meta name="apple-touch-fullscreen" content="yes" />
+  <meta name="description" content="Coffee Shop PWA Application" />
+
+  <meta name="google" value="notranslate" />
+
+  <link rel="manifest" href="/site.webmanifest">
+  <title>Bmi</title>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+
+  <script>
+    document.addEventListener("contextmenu", (event) =>
+      event.preventDefault()
+    );
+
+    document.onkeydown = function (e) {
+      if (event.keyCode == 123) {
+        return false;
+      }
+      if (e.ctrlKey && e.shiftKey && e.keyCode == "I".charCodeAt(0)) {
+        return false;
+      }
+      if (e.ctrlKey && e.shiftKey && e.keyCode == "C".charCodeAt(0)) {
+        return false;
+      }
+      if (e.ctrlKey && e.shiftKey && e.keyCode == "J".charCodeAt(0)) {
+        return false;
+      }
+      if (e.ctrlKey && e.keyCode == "U".charCodeAt(0)) {
+        return false;
+      }
+    };
+
+    // Prevents immediate prompt display
+    // window.addEventListener("beforeinstallprompt", (beforeInstallPromptEvent) => {
+    //   beforeInstallPromptEvent.preventDefault();
+    // });
+  </script>
+
+  <!-- <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js', {
+          scope: '/',
+        });
+      })
+    }
+  </script> -->
+</body>
+
+</html>
