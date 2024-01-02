@@ -47,10 +47,7 @@ const Home = () => {
       })
     })
 
-    toggleOpenSubMenu?.addEventListener('click', (e) => {
-      // submenu.classList.toggle('submenu--open')
-      // e.currentTarget.parentElement.classList.toggle('text-orange-300')
-
+    toggleOpenSubMenu?.addEventListener('click', (e: any) => {
       if (submenu?.classList.contains('submenu--open')) {
         e?.currentTarget.parentElement.classList.remove("text-orange-300")
         submenu?.classList.remove("submenu--open")

@@ -164,11 +164,11 @@
 
   @media screen and (min-width: 1280px) {
     html.dark .products {
-      background-image: url("/tailwindcss/sample5/images/products-bg.png");
+      background-image: url("public/assets/images/products-bg.png");
     }
 
     .products {
-      background: linear-gradient(rgba(243, 244, 246, 0.65), rgba(243, 244, 246, 0.65)), url("/tailwindcss/sample5/images/products-bg.png");
+      background: linear-gradient(rgba(243, 244, 246, 0.65), rgba(243, 244, 246, 0.65)), url("public/assets/images/products-bg.png");
       @apply bg-no-repeat;
       background-size: 100%;
     }
@@ -183,12 +183,12 @@
   }
 
   .banner--right {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/tailwindcss/sample5/images/categories/category-right.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("public/assets/images/categories/category-right.jpg");
     @apply w-full bg-no-repeat bg-cover bg-center overflow-hidden rounded-2xl flex-grow flex-shrink-0 text-white;
   }
 
   .banner--left {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/tailwindcss/sample5/images/categories/category-left.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("public/assets/images/categories/category-left.jpg");
     @apply w-full bg-no-repeat bg-cover bg-center overflow-hidden rounded-2xl flex-grow flex-shrink-0 text-white;
   }
 
