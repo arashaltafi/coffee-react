@@ -516,7 +516,7 @@ const Home = () => {
             {/* <!-- Logo --> */}
             <div id="logo1" className="flex shrink-0">
               <img className="hover:blur-[1px] hover:translate-x-[1px] hover:translate-y-[1px] hover:scale-105"
-                src="public/assets/images/app-logo.png" alt="Golden Coffee" />
+                src="/assets/images/app-logo.png" alt="Golden Coffee" />
             </div>
             {/* <!-- Menu --> */}
             <ul
@@ -596,7 +596,7 @@ const Home = () => {
                     className="mt-2 max-h-72 lg:max-h-80 xl:max-h-96 overflow-y-auto  pb-1 border-b border-b-gray-200 dark:border-b-white/10 divide-y divide-gray-200 dark:divide-white/10 child:py-5">
                     <div className="flex flex-row gap-x-2">
                       <div className="w-30 h-30 cursor-pointer hover:brightness-105">
-                        <img className="drop-shadow-2xl" src="public/assets/images/products/p1.png" alt="coffee" />
+                        <img className="drop-shadow-2xl" src="/assets/images/products/p1.png" alt="coffee" />
                       </div>
                       <div className="flex flex-col justify-between w-full">
                         <h2 className="text-base font-DanaMedium line-clamp-2">
@@ -617,29 +617,7 @@ const Home = () => {
 
                     <div className="flex flex-row gap-x-2">
                       <div className="w-30 h-30 cursor-pointer hover:brightness-105">
-                        <img className="drop-shadow-2xl" src="public/assets/images/products/p2.png" alt="coffee" />
-                      </div>
-                      <div className="flex flex-col justify-between w-full">
-                        <h2 className="text-base font-DanaMedium line-clamp-2">
-                          قهوه اسپرسو بن مانو مدل پریسکا 250 گرمی
-                          قهوه اسپرسو بن مانو مدل پریسکا 250 گرمی
-                        </h2>
-                        <div className="mt-6">
-                          <p
-                            className="text-teal-600 dark:text-emerald-500 text-xs tracking-tighter line-clamp-1">
-                            14.500 تومان تخفیف
-                          </p>
-                          <p className="text-zinc-700 dark:text-white font-DanaBold line-clamp-1 mt-1">
-                            175,000
-                            <span className="font-Dana text-sm">تومان</span>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="flex flex-row gap-x-2">
-                      <div className="w-30 h-30 cursor-pointer hover:brightness-105">
-                        <img className="drop-shadow-2xl" src="public/assets/images/products/p3.png" alt="coffee" />
+                        <img className="drop-shadow-2xl" src="/assets/images/products/p2.png" alt="coffee" />
                       </div>
                       <div className="flex flex-col justify-between w-full">
                         <h2 className="text-base font-DanaMedium line-clamp-2">
@@ -661,7 +639,7 @@ const Home = () => {
 
                     <div className="flex flex-row gap-x-2">
                       <div className="w-30 h-30 cursor-pointer hover:brightness-105">
-                        <img className="drop-shadow-2xl" src="public/assets/images/products/p4.png" alt="coffee" />
+                        <img className="drop-shadow-2xl" src="/assets/images/products/p3.png" alt="coffee" />
                       </div>
                       <div className="flex flex-col justify-between w-full">
                         <h2 className="text-base font-DanaMedium line-clamp-2">
@@ -683,7 +661,7 @@ const Home = () => {
 
                     <div className="flex flex-row gap-x-2">
                       <div className="w-30 h-30 cursor-pointer hover:brightness-105">
-                        <img className="drop-shadow-2xl" src="public/assets/images/products/p5.png" alt="coffee" />
+                        <img className="drop-shadow-2xl" src="/assets/images/products/p4.png" alt="coffee" />
                       </div>
                       <div className="flex flex-col justify-between w-full">
                         <h2 className="text-base font-DanaMedium line-clamp-2">
@@ -705,7 +683,29 @@ const Home = () => {
 
                     <div className="flex flex-row gap-x-2">
                       <div className="w-30 h-30 cursor-pointer hover:brightness-105">
-                        <img className="drop-shadow-2xl" src="public/assets/images/products/p6.png" alt="coffee" />
+                        <img className="drop-shadow-2xl" src="/assets/images/products/p5.png" alt="coffee" />
+                      </div>
+                      <div className="flex flex-col justify-between w-full">
+                        <h2 className="text-base font-DanaMedium line-clamp-2">
+                          قهوه اسپرسو بن مانو مدل پریسکا 250 گرمی
+                          قهوه اسپرسو بن مانو مدل پریسکا 250 گرمی
+                        </h2>
+                        <div className="mt-6">
+                          <p
+                            className="text-teal-600 dark:text-emerald-500 text-xs tracking-tighter line-clamp-1">
+                            14.500 تومان تخفیف
+                          </p>
+                          <p className="text-zinc-700 dark:text-white font-DanaBold line-clamp-1 mt-1">
+                            175,000
+                            <span className="font-Dana text-sm">تومان</span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="flex flex-row gap-x-2">
+                      <div className="w-30 h-30 cursor-pointer hover:brightness-105">
+                        <img className="drop-shadow-2xl" src="/assets/images/products/p6.png" alt="coffee" />
                       </div>
                       <div className="flex flex-col justify-between w-full">
                         <h2 className="text-base font-DanaMedium line-clamp-2">
@@ -946,7 +946,7 @@ const Home = () => {
           {/* <!-- Body Cart --> */}
           <div className="child:pb-5 child:mb-5">
             <div className="flex flex-row items-center gap-x-1 border-b border-b-gray-100 dark:border-b-white/10">
-              <img className="w-[90px] h-[90px] cursor-pointer hover:brightness-105" src="public/assets/images/products/p1.png"
+              <img className="w-[90px] h-[90px] cursor-pointer hover:brightness-105" src="/assets/images/products/p1.png"
                 alt="coffee" />
               <div className="flex flex-col justify-between gap-y-1.5">
                 <h2 className="text-sm font-DanaMedium line-clamp-2 text-zinc-700 dark:text-white">
@@ -965,7 +965,7 @@ const Home = () => {
               </div>
             </div>
             <div className="flex flex-row items-center gap-x-1 border-b border-b-gray-100 dark:border-b-white/10">
-              <img className="w-[90px] h-[90px] cursor-pointer hover:brightness-105" src="public/assets/images/products/p2.png"
+              <img className="w-[90px] h-[90px] cursor-pointer hover:brightness-105" src="/assets/images/products/p2.png"
                 alt="coffee" />
               <div className="flex flex-col justify-between gap-y-1.5">
                 <h2 className="text-sm font-DanaMedium line-clamp-2 text-zinc-700 dark:text-white">
@@ -984,7 +984,7 @@ const Home = () => {
               </div>
             </div>
             <div className="flex flex-row items-center gap-x-1 border-b border-b-gray-100 dark:border-b-white/10">
-              <img className="w-[90px] h-[90px] cursor-pointer hover:brightness-105" src="public/assets/images/products/p3.png"
+              <img className="w-[90px] h-[90px] cursor-pointer hover:brightness-105" src="/assets/images/products/p3.png"
                 alt="coffee" />
               <div className="flex flex-col justify-between gap-y-1.5">
                 <h2 className="text-sm font-DanaMedium line-clamp-2 text-zinc-700 dark:text-white">
@@ -1005,7 +1005,7 @@ const Home = () => {
               </div>
             </div>
             <div className="flex flex-row items-center gap-x-1 border-b border-b-gray-100 dark:border-b-white/10">
-              <img className="w-[90px] h-[90px] cursor-pointer hover:brightness-105" src="public/assets/images/products/p4.png"
+              <img className="w-[90px] h-[90px] cursor-pointer hover:brightness-105" src="/assets/images/products/p4.png"
                 alt="coffee" />
               <div className="flex flex-col justify-between gap-y-1.5">
                 <h2 className="text-sm font-DanaMedium line-clamp-2 text-zinc-700 dark:text-white">
@@ -1024,7 +1024,7 @@ const Home = () => {
               </div>
             </div>
             <div className="flex flex-row items-center gap-x-1 border-b border-b-gray-100 dark:border-b-white/10">
-              <img className="w-[90px] h-[90px] cursor-pointer hover:brightness-105" src="public/assets/images/products/p5.png"
+              <img className="w-[90px] h-[90px] cursor-pointer hover:brightness-105" src="/assets/images/products/p5.png"
                 alt="coffee" />
               <div className="flex flex-col justify-between gap-y-1.5">
                 <h2 className="text-sm font-DanaMedium line-clamp-2 text-zinc-700 dark:text-white">
@@ -1043,7 +1043,7 @@ const Home = () => {
               </div>
             </div>
             <div className="flex flex-row items-center gap-x-1 border-b border-b-gray-100 dark:border-b-white/10">
-              <img className="w-[90px] h-[90px] cursor-pointer hover:brightness-105" src="public/assets/images/products/p6.png"
+              <img className="w-[90px] h-[90px] cursor-pointer hover:brightness-105" src="/assets/images/products/p6.png"
                 alt="coffee" />
               <div className="flex flex-col justify-between gap-y-1.5">
                 <h2 className="text-sm font-DanaMedium line-clamp-2 text-zinc-700 dark:text-white">
@@ -1171,7 +1171,7 @@ const Home = () => {
                   %12
                 </span>
                 <img className="hover:scale-[103%] transition-transform hover:brightness-105 mx-auto drop-shadow-2xl"
-                  src="public/assets/images/products/p1.png" alt="coffee" />
+                  src="/assets/images/products/p1.png" alt="coffee" />
               </div>
               {/* <!-- title --> */}
               <p
@@ -1245,7 +1245,7 @@ const Home = () => {
                   %12
                 </span>
                 <img className="hover:scale-[103%] transition-transform hover:brightness-105 mx-auto drop-shadow-2xl"
-                  src="public/assets/images/products/p2.png" alt="coffee" />
+                  src="/assets/images/products/p2.png" alt="coffee" />
               </div>
               {/* <!-- title --> */}
               <p
@@ -1319,7 +1319,7 @@ const Home = () => {
                   %12
                 </span>
                 <img className="hover:scale-[103%] transition-transform hover:brightness-105 mx-auto drop-shadow-2xl"
-                  src="public/assets/images/products/p3.png" alt="coffee" />
+                  src="/assets/images/products/p3.png" alt="coffee" />
               </div>
               {/* <!-- title --> */}
               <p
@@ -1393,7 +1393,7 @@ const Home = () => {
                   %12
                 </span>
                 <img className="hover:scale-[103%] transition-transform hover:brightness-105 mx-auto drop-shadow-2xl"
-                  src="public/assets/images/products/p4.png" alt="coffee" />
+                  src="/assets/images/products/p4.png" alt="coffee" />
               </div>
               {/* <!-- title --> */}
               <p
@@ -1467,7 +1467,7 @@ const Home = () => {
                   %12
                 </span>
                 <img className="hover:scale-[103%] transition-transform hover:brightness-105 mx-auto drop-shadow-2xl"
-                  src="public/assets/images/products/p4.png" alt="coffee" />
+                  src="/assets/images/products/p4.png" alt="coffee" />
               </div>
               {/* <!-- title --> */}
               <p
@@ -1541,7 +1541,7 @@ const Home = () => {
                   %12
                 </span>
                 <img className="hover:scale-[103%] transition-transform hover:brightness-105 mx-auto drop-shadow-2xl"
-                  src="public/assets/images/products/p1.png" alt="coffee" />
+                  src="/assets/images/products/p1.png" alt="coffee" />
               </div>
               {/* <!-- title --> */}
               <p
@@ -1615,7 +1615,7 @@ const Home = () => {
                   %12
                 </span>
                 <img className="hover:scale-[103%] transition-transform hover:brightness-105 mx-auto drop-shadow-2xl"
-                  src="public/assets/images/products/p3.png" alt="coffee" />
+                  src="/assets/images/products/p3.png" alt="coffee" />
               </div>
               {/* <!-- title --> */}
               <p
@@ -1689,7 +1689,7 @@ const Home = () => {
                   %12
                 </span>
                 <img className="hover:scale-[103%] transition-transform hover:brightness-105 mx-auto"
-                  src="public/assets/images/products/p2.png" alt="coffee" />
+                  src="/assets/images/products/p2.png" alt="coffee" />
               </div>
               {/* <!-- title --> */}
               <p
@@ -1785,7 +1785,7 @@ const Home = () => {
             <div
               className="flex flex-col items-center hover:scale-[102%] transition-transform cursor-pointer hover:brightness-105">
               <img className="rounded-full overflow-visible"
-                src="public/assets/images/categories/category1.png" alt="category 1" />
+                src="/assets/images/categories/category1.png" alt="category 1" />
               <p className="mt-2.5 text-sm md:text-xl text-zinc-700 dark:text-white">
                 قهوه دمی و اسپرسو
               </p>
@@ -1793,7 +1793,7 @@ const Home = () => {
             <div
               className="flex flex-col items-center hover:scale-[102%] transition-transform cursor-pointer hover:brightness-105">
               <img className="rounded-full overflow-visible"
-                src="public/assets/images/categories/category2.png" alt="category 1" />
+                src="/assets/images/categories/category2.png" alt="category 1" />
               <p className="mt-2.5 text-sm md:text-xl text-zinc-700 dark:text-white">
                 لوازم جانبی و تجهیزات
               </p>
@@ -1801,7 +1801,7 @@ const Home = () => {
             <div
               className="flex flex-col items-center hover:scale-[102%] transition-transform cursor-pointer hover:brightness-105">
               <img className="rounded-full overflow-visible"
-                src="public/assets/images/categories/category3.png" alt="category 1" />
+                src="/assets/images/categories/category3.png" alt="category 1" />
               <p className="mt-2.5 text-sm md:text-xl text-zinc-700 dark:text-white">
                 اسپرسو ساز
               </p>
@@ -1809,7 +1809,7 @@ const Home = () => {
             <div
               className="flex flex-col items-center hover:scale-[102%] transition-transform cursor-pointer hover:brightness-105">
               <img className="rounded-full overflow-visible"
-                src="public/assets/images/categories/category4.png" alt="category 1" />
+                src="/assets/images/categories/category4.png" alt="category 1" />
               <p className="mt-2.5 text-sm md:text-xl text-zinc-700 dark:text-white">
                 پک تستر قهوه
               </p>
@@ -1817,7 +1817,7 @@ const Home = () => {
             <div
               className="flex flex-col items-center hover:scale-[102%] transition-transform cursor-pointer hover:brightness-105">
               <img className="rounded-full overflow-visible"
-                src="public/assets/images/categories/category5.png" alt="category 1" />
+                src="/assets/images/categories/category5.png" alt="category 1" />
               <p className="mt-2.5 text-sm md:text-xl text-zinc-700 dark:text-white">
                 قهوه ترک
               </p>
@@ -1864,7 +1864,7 @@ const Home = () => {
                     %12
                   </span>
                   <img className="hover:scale-[103%] transition-transform hover:brightness-105"
-                    src="public/assets/images/products/p5.png" alt="coffee" />
+                    src="/assets/images/products/p5.png" alt="coffee" />
                 </div>
                 {/* <!-- title --> */}
                 <p
@@ -1939,7 +1939,7 @@ const Home = () => {
                     %12
                   </span>
                   <img className="hover:scale-[103%] transition-transform hover:brightness-105"
-                    src="public/assets/images/products/p6.png" alt="coffee" />
+                    src="/assets/images/products/p6.png" alt="coffee" />
                 </div>
                 {/* <!-- title --> */}
                 <p
@@ -2014,7 +2014,7 @@ const Home = () => {
                     %12
                   </span>
                   <img className="hover:scale-[103%] transition-transform hover:brightness-105"
-                    src="public/assets/images/products/p7.png" alt="coffee" />
+                    src="/assets/images/products/p7.png" alt="coffee" />
                 </div>
                 {/* <!-- title --> */}
                 <p
@@ -2089,7 +2089,7 @@ const Home = () => {
                     %12
                   </span>
                   <img className="hover:scale-[103%] transition-transform hover:brightness-105"
-                    src="public/assets/images/products/p8.png" alt="coffee" />
+                    src="/assets/images/products/p8.png" alt="coffee" />
                 </div>
                 {/* <!-- title --> */}
                 <p
@@ -2164,7 +2164,7 @@ const Home = () => {
             <div className="flex">
               {/* <!-- icon --> */}
               <img className="w-[87px] md:w-[110px] h-[78px] md:h-[98px]"
-                src="public/assets/images/club/diamond.png" alt="diamond" />
+                src="/assets/images/club/diamond.png" alt="diamond" />
               {/* <!-- title --> */}
               <div className="flex flex-col justify-center items-start mr-3 md:mr-6 text-white">
                 <h2 className="font-MorabbaMedium text-2xl md:text-5xl">
@@ -2248,7 +2248,7 @@ const Home = () => {
               <div
                 className="relative flex flex-row md:flex-col bg-white dark:bg-zinc-700 rounded-2xl group cursor-pointer">
                 <img className="h-48 w-[180px] md:w-full mt-2.5 px-2 rounded-2xl rounded-bl-[48px]"
-                  src="public/assets/images/blogs/blog-1.png" alt="blog 1" />
+                  src="/assets/images/blogs/blog-1.png" alt="blog 1" />
                 <div
                   className="absolute flex items-center justify-center w-full h-full opacity-0 invisible rounded-2xl group-hover:opacity-100 group-hover:visible bg-orange-300/50 transition-all delay-100">
                   <svg className="w-36 h-14">
@@ -2285,7 +2285,7 @@ const Home = () => {
               <div
                 className="relative flex flex-row md:flex-col bg-white dark:bg-zinc-700 rounded-2xl group cursor-pointer">
                 <img className="h-48 w-[180px] md:w-full mt-2.5 px-2 rounded-2xl rounded-bl-[48px]"
-                  src="public/assets/images/blogs/blog-2.png" alt="blog 2" />
+                  src="/assets/images/blogs/blog-2.png" alt="blog 2" />
                 <div
                   className="absolute flex items-center justify-center w-full h-full opacity-0 invisible rounded-2xl group-hover:opacity-100 group-hover:visible bg-orange-300/50 transition-all delay-100">
                   <svg className="w-36 h-14">
@@ -2322,7 +2322,7 @@ const Home = () => {
               <div
                 className="relative flex flex-row md:flex-col bg-white dark:bg-zinc-700 rounded-2xl group cursor-pointer">
                 <img className="h-48 w-[180px] md:w-full mt-2.5 px-2 rounded-2xl rounded-bl-[48px]"
-                  src="public/assets/images/blogs/blog-3.png" alt="blog 3" />
+                  src="/assets/images/blogs/blog-3.png" alt="blog 3" />
                 <div
                   className="absolute flex items-center justify-center w-full h-full opacity-0 invisible rounded-2xl group-hover:opacity-100 group-hover:visible bg-orange-300/50 transition-all delay-100">
                   <svg className="w-36 h-14">
@@ -2359,7 +2359,7 @@ const Home = () => {
               <div
                 className="relative flex flex-row md:flex-col bg-white dark:bg-zinc-700 rounded-2xl group cursor-pointer">
                 <img className="h-48 w-[180px] md:w-full mt-2.5 px-2 rounded-2xl rounded-bl-[48px]"
-                  src="public/assets/images/blogs/blog-4.png" alt="blog 4" />
+                  src="/assets/images/blogs/blog-4.png" alt="blog 4" />
                 <div
                   className="absolute flex items-center justify-center w-full h-full opacity-0 invisible rounded-2xl group-hover:opacity-100 group-hover:visible bg-orange-300/50 transition-all delay-100">
                   <svg className="w-36 h-14">
@@ -2398,7 +2398,7 @@ const Home = () => {
           {/* <!-- Conatact --> */}
           <div className="mt-8 md:mt-28 flex flex-row flex-wrap items-center select-none text-zinc-700 dark:text-white">
             <img className="w-[296px] h-[305px] hover:brightness-105 hover:contrast-125"
-              src="public/assets/images/contact.png" alt="contact" />
+              src="/assets/images/contact.png" alt="contact" />
             <div className="flex flex-col mx-4 md:mr-5 mt-8 md:mt-0">
               <h2 className="section-title">
                 یکی از بهترین قهوه ها !

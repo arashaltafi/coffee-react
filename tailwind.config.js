@@ -95,8 +95,8 @@ export default {
         }
       },
       backgroundImage: {
-        "home-mobile": "url(public/assets/images/headerBgMobile.webp)",
-        "home-desktop": "url(public/assets/images/headerBgDesktop.webp)",
+        "home-mobile": "url(/assets/images/headerBgMobile.webp)",
+        "home-desktop": "url(/assets/images/headerBgDesktop.webp)",
       }
     },
   },
